@@ -1,0 +1,1 @@
+window.LoadService=[function(){return function(a,b){b=b||function(){};a||(a=[]);Array.isArray(a)||(a=[a]);var c=a.length;a.forEach(function(a){var d=a.element;a=a.src;d.onload=function(){c--;0==c&&b()};d.src=a})}}];

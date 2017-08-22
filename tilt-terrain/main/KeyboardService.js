@@ -1,0 +1,1 @@
+window.KeyboardService=[function(){function d(a){return!!b[a]}var c={},b={};window.onkeyup=function(a){a.key&&(b[a.key]=!1,(a=c[a.key])&&a.up())};window.onkeydown=function(a){a.key&&(b[a.key]=!0,(a=c[a.key])&&a.down())};return function(a){c=a||{};return d}}];
